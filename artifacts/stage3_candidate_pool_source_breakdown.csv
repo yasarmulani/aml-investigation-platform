@@ -1,0 +1,14 @@
+candidate_source,rows,relevant_rows,unique_pattern_ids,N,source_classification
+real_extracted_candidate_region,30,12,10,30,real extracted candidate regions
+pattern_summary_derived_laundering_candidate,10,10,10,50,pattern-summary-derived candidates
+real_extracted_candidate_region,30,12,10,50,real extracted candidate regions
+synthetic_non_laundering_decoy,10,0,10,50,synthetic non-laundering decoys
+pattern_summary_derived_laundering_candidate,22,22,22,75,pattern-summary-derived candidates
+real_extracted_candidate_region,30,12,10,75,real extracted candidate regions
+synthetic_non_laundering_decoy,23,0,23,75,synthetic non-laundering decoys
+pattern_summary_derived_laundering_candidate,35,35,35,100,pattern-summary-derived candidates
+real_extracted_candidate_region,30,12,10,100,real extracted candidate regions
+synthetic_non_laundering_decoy,35,0,35,100,synthetic non-laundering decoys
+pattern_summary_derived_laundering_candidate,60,60,60,150,pattern-summary-derived candidates
+real_extracted_candidate_region,30,12,10,150,real extracted candidate regions
+synthetic_non_laundering_decoy,60,0,60,150,synthetic non-laundering decoys

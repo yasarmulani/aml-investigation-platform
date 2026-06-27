@@ -1,0 +1,5 @@
+source,file,rows,unique_pattern_ids
+real extracted candidate regions,candidate_region_rankings.csv,30,10.0
+IBM labelled pattern summaries,pattern_summary.csv,370,370.0
+IBM labelled pattern account memberships,pattern_accounts.csv,3596,370.0
+synthetic non-laundering decoys,generated from non-pattern account IDs and real feature ranges,as needed for N>30 stress pools,

@@ -1,0 +1,13 @@
+{
+  "chosen_lambda_budget": 4.0,
+  "repeats": 20,
+  "replicas": 12,
+  "sweeps": 2000,
+  "exact_energy": -102.0722082031651,
+  "best_raw_feasible_seed": 43,
+  "best_repaired_seed": 52,
+  "target_max_abs": 1.0,
+  "raw_feasibility_rate": 0.9,
+  "median_repaired_gap": 1.7422463524023755,
+  "best_repaired_gap": 0.6820655281123891
+}

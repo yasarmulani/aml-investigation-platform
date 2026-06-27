@@ -1,0 +1,62 @@
+/* QLANTERN Global Styles */
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #ffffff;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #e5e7eb; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #d1d5db; }
+
+/* Progress bar animation */
+@keyframes progress-slide {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(100%); }
+}
+.progress-shimmer {
+  animation: progress-slide 1.2s ease-in-out infinite;
+}
+
+/* Skeleton */
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.5; }
+}
+.skeleton { animation: skeleton-pulse 1.5s ease-in-out infinite; }
+
+/* Card hover */
+.card-hover { transition: border-color 0.15s ease; }
+.card-hover:hover { border-color: #e5e7eb !important; }
+
+/* Overlay entrance */
+@keyframes overlay-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes panel-in {
+  from { transform: translateX(100%); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+@keyframes modal-in {
+  from { transform: translateY(16px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+@keyframes fade-up {
+  from { transform: translateY(8px); opacity: 0; }
+  to   { transform: translateY(0);   opacity: 1; }
+}
+
+.overlay-backdrop { animation: overlay-in 0.2s ease; }
+.panel-slide      { animation: panel-in  0.25s cubic-bezier(0.16, 1, 0.3, 1); }
+.modal-enter      { animation: modal-in  0.2s cubic-bezier(0.16, 1, 0.3, 1); }
+.fade-up          { animation: fade-up   0.2s ease; }
+
+/* Network canvas */
+canvas { display: block; }
